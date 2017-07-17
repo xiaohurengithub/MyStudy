@@ -1,0 +1,113 @@
+Android
+API 级别：标识 API 框架的整数；
+开发环境：
+  1. java jdk;
+  2. android sdk;
+  3. jre;
+      jre: java runtime , jdk一般都包含 jre
+  4. android studio;
+  
+android 架构：
+  5 个部分， 4个层次
+  layer:
+    1. linux kernel
+        1. display driver
+        2. camera driver
+        3. bluetooth driver
+        4. ...
+        ...
+    2. libraries: 程序库的集合，浏览器引擎，存储数据库引擎，网络安全，。。
+                   ->     基于java的 android 开发程序库，应用程序框架，如用户界面构建，数据库访问等等。
+      .1
+          1. surface Manager
+          2. media Framwork
+          3. SQLLite
+          4. openGLES
+          5. FreeType
+          6. LibWebCore
+          7. SGL
+          8. SSL
+          9. Libe
+      .2
+          1. core Lib
+          2. david vitual machine
+    
+    3. Application FrameWork   
+       1. Activity Manager
+       2. window Manager
+       3. Control Providers
+       4. View System
+       5. Notification System
+       6. Package Manager
+       7. Telephony Manager
+       8. Resource Manager
+       9. Location Manager
+       10. XMPP server
+       
+   4. Applications
+       1. Home
+       2. Dialer
+       3. SMS/MMS
+       4. IM
+       5. Browser
+       6. Camera
+       7. Alarm
+       8. Calulater
+       9. Contacts
+       10.Voice Dial
+       11.Email
+       12.Calendar
+       13.MediaPlayer
+       14.Album
+       15.clock
+       ...
+       
+android librories:
+      1. android.app            ->   提供应用程序模型的访问，是android 应用的基础。
+      2. android.contend        ->   应用程序之间和应用程序组建之间内容访问，消息传递
+      3. android.database
+      4. android.openGL
+      5. android.os             ->   应用访问标注操作系统服务的能力，消息，系统服务，进程间通信
+      6. android.text           ->   设备显示上渲染和操作文本
+      7. android.view           ->   应用程序用户界面的基础构件
+      8. android.widget         ->   用户界面组建的组合，按钮，标签，列表，布局管理，
+      9. android.webkit         ->   一些列类的集合，提供内建的 web 访问能力
+       
+  
+应用框架:
+    以 java 类的形式 为应用程序提供的高级服务，开发者可以使用这些服务
+    1. 活动管理者，控制应用程序社工匿名周期和活动栈的所有方面
+    2. 内容提供者，允许程序之间发布和共享数据
+    3. 资源管理器，非 代码嵌入 资源的访问，字符串，颜色，用户界面布局
+    4. 通知管理器，显示通话框或者通知给用户
+    5. 视图系统，可扩展的试图集合，用于创建
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
